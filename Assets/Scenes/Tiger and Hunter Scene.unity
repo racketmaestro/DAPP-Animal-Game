@@ -1061,8 +1061,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Did you know that tigers are endangered? They are hunted for their fur.
-    Stop this hunter by tapping fast!
+  m_text: Did you know that tigers are endangered because they are hunted for their
+    fur? There are only about 3000 tigers left in the wild. We need to help protect
+    them! Stop this hunter by tapping fast!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
   m_sharedMaterial: {fileID: 1458263192709328847, guid: 24349a1c20e388246bac588a1f584be5, type: 2}

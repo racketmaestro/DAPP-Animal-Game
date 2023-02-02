@@ -6,7 +6,8 @@ public class QuestionGenerator : MonoBehaviour
 {
     public static string actualAnswer;
     public static bool displayingQuestion = false;
-    public int questionNumber;
+    public int questionNumber = 0;
+    
 
     void Update()
     {
@@ -14,14 +15,14 @@ public class QuestionGenerator : MonoBehaviour
         if (displayingQuestion == false)
         {
             displayingQuestion = true;
-            questionNumber = Random.Range(1, 3);
+            //questionNumber = Random.Range(1, 3);
+            questionNumber++;
 
             for (int i = 1; i <= 3; i++)
             {
                 //int questionNumber = i
                 if (questionNumber == 1)
                 {
-
                     QuestionDisplay.newQuestion = "Wild tigers live in Asia, and most populations inhabit tropical regions in countries such as Thailand, Indonesia and India. What kind of habitat do you think Bengal/Bali/etc tiger live in?";
                     QuestionDisplay.newA = "Sahara Desert";
                     QuestionDisplay.newB = "Tropical Jungle";
