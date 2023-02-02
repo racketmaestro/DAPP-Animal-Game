@@ -34,13 +34,14 @@ public class AnswerButtons : MonoBehaviour
         {
             answerAbackGreen.SetActive(true);
             answerAbackBlue.SetActive(false);
+            StartCoroutine(NextQuestion());
         }
         else
         {
             answerAbackRed.SetActive(true);
             answerAbackBlue.SetActive(false);
         }
-        StartCoroutine(NextQuestion());
+        
 
         // Only allows you to press one button
         /*
@@ -57,6 +58,7 @@ public class AnswerButtons : MonoBehaviour
         {
             answerBbackGreen.SetActive(true);
             answerBbackBlue.SetActive(false);
+            StartCoroutine(NextQuestion());
         }
         else
         {
@@ -64,7 +66,6 @@ public class AnswerButtons : MonoBehaviour
             answerBbackBlue.SetActive(false);
         }
 
-        StartCoroutine(NextQuestion());
         /*
         answerA.GetComponent<Button>().enabled = false;
         answerB.GetComponent<Button>().enabled = false;
@@ -79,13 +80,14 @@ public class AnswerButtons : MonoBehaviour
         {
             answerCbackGreen.SetActive(true);
             answerCbackBlue.SetActive(false);
+            StartCoroutine(NextQuestion());
         }
         else
         {
             answerCbackRed.SetActive(true);
             answerCbackBlue.SetActive(false);
         }
-        StartCoroutine(NextQuestion());
+
         /*
         answerA.GetComponent<Button>().enabled = false;
         answerB.GetComponent<Button>().enabled = false;
@@ -100,13 +102,14 @@ public class AnswerButtons : MonoBehaviour
         {
             answerDbackGreen.SetActive(true);
             answerDbackBlue.SetActive(false);
+            StartCoroutine(NextQuestion());
         }
         else
         {
             answerDbackRed.SetActive(true);
             answerDbackBlue.SetActive(false);
         }
-        StartCoroutine(NextQuestion());
+
         /*
         answerA.GetComponent<Button>().enabled = false;
         answerB.GetComponent<Button>().enabled = false;
