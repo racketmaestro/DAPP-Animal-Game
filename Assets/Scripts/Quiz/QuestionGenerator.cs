@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class QuestionGenerator : MonoBehaviour
 {
@@ -12,15 +13,13 @@ public class QuestionGenerator : MonoBehaviour
     void Update()
     {
         //Will generate a question only if there is not a question being displayed
+   
         if (displayingQuestion == false)
         {
             displayingQuestion = true;
-            //questionNumber = Random.Range(1, 3);
             questionNumber++;
 
-            for (int i = 1; i <= 3; i++)
-            {
-                //int questionNumber = i
+
                 if (questionNumber == 1)
                 {
                     QuestionDisplay.newQuestion = "Wild tigers live in Asia, and most populations inhabit tropical regions in countries such as Thailand, Indonesia and India. What kind of habitat do you think Bengal/Bali/etc tiger live in?";
@@ -39,7 +38,11 @@ public class QuestionGenerator : MonoBehaviour
                     QuestionDisplay.newD = "Foal";
                     actualAnswer = "A";
                 }
-            }
+                if (questionNumber == 3)
+                {
+                    SceneManager.LoadScene("Tiger and Hunter Scene");
+                }
+            //}
 
         }
 
