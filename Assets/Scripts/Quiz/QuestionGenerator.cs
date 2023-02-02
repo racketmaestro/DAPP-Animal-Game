@@ -8,6 +8,7 @@ public class QuestionGenerator : MonoBehaviour
     public static string actualAnswer;
     public static bool displayingQuestion = false;
     public int questionNumber = 0;
+    public string NextScene;
     
 
     void Update()
@@ -40,7 +41,7 @@ public class QuestionGenerator : MonoBehaviour
                 }
                 if (questionNumber == 3)
                 {
-                    SceneManager.LoadScene("Tiger and Hunter Scene");
+                    SceneManager.LoadScene(NextScene);
                 }
             //}
 
