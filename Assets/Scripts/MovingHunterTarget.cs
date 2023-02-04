@@ -8,14 +8,15 @@ public class MovingHunterTarget : MonoBehaviour
     private Vector2 targetPosition;
     private RectTransform canvasRectTransform;
     public float moveSpeed = 1f;
-
-    
+    public GameObject animationObject;
+    private Animator animator;
 
     void Start()
     {
         rectTransform = GetComponent<RectTransform>();
         canvasRectTransform = GetComponentInParent<Canvas>().GetComponent<RectTransform>();
         SetNewTargetPosition();
+        animator = animationObject.GetComponent<Animator>();
     }
 
     void Update()
@@ -32,6 +33,9 @@ public class MovingHunterTarget : MonoBehaviour
             if (RectTransformUtility.RectangleContainsScreenPoint(rectTransform, tapPoint))
             {
                 Destroy(gameObject);
+                //animator.SetTrigger("Fall Trigger");
+                animationObject.GetComponent<Animator>().Play("Stumble Backwards");
+
             }
         }
     }
@@ -41,4 +45,5 @@ public class MovingHunterTarget : MonoBehaviour
         Vector2 canvasSize = new Vector2(canvasRectTransform.rect.width, canvasRectTransform.rect.height) / 2f;
         targetPosition = new Vector2(Random.Range(-canvasSize.x, canvasSize.x), Random.Range(-canvasSize.y, canvasSize.y));
     }
+
 }
