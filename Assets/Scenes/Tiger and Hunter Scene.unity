@@ -240,8 +240,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -54.179718}
-  m_SizeDelta: {x: 0, y: 108.3595}
+  m_AnchoredPosition: {x: -0.000030517578, y: -55.2574}
+  m_SizeDelta: {x: 0.000061035, y: 110.5148}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &173789443
 MonoBehaviour:
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -359,7 +359,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &265266600
 RectTransform:
@@ -375,6 +375,7 @@ RectTransform:
   m_Children:
   - {fileID: 173789442}
   - {fileID: 1498646769}
+  - {fileID: 765493593}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -761,6 +762,96 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &765493592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 765493593}
+  - component: {fileID: 765493596}
+  - component: {fileID: 765493595}
+  - component: {fileID: 765493597}
+  m_Layer: 5
+  m_Name: HunterMovingTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &765493593
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765493592}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 265266600}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -5.1782, y: 0.0028567107}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &765493595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765493592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.57924527, b: 0.57924527, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &765493596
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765493592}
+  m_CullTransparentMesh: 1
+--- !u!114 &765493597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765493592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7824d969b3e51934cb6645536a5fa3e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
 --- !u!1 &787026067
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +881,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1351946502}
+  - {fileID: 2057708357}
+  - {fileID: 1362157566}
   m_Father: {fileID: 2097555553}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -913,6 +1006,10 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -4664642559230889596, guid: 64abe4dc659418f4285030cd9bd63c84, type: 2}
     value: {fileID: 451861330}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 451861330}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1362157566
@@ -923,11 +1020,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362157564}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.21725464, y: 0.24583435, z: 0.2068669}
+  m_LocalPosition: {x: 0.44814026, y: 0.12962504, z: 0.25795323}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2097555553}
+  m_Father: {fileID: 787026068}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1498646766
@@ -1063,7 +1160,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Did you know that tigers are endangered because they are hunted for their
     fur? There are only about 3000 tigers left in the wild. We need to help protect
-    them! Stop this hunter by tapping fast!
+    them! Stop this hunter by tapping on the target!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
   m_sharedMaterial: {fileID: 1458263192709328847, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
@@ -1090,10 +1187,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 19.75
   m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -1270,12 +1367,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057708356}
   m_LocalRotation: {x: -0, y: -0.85299796, z: -0, w: 0.52191424}
-  m_LocalPosition: {x: 0.43520284, y: 0.030000001, z: 0.42258778}
+  m_LocalPosition: {x: 0.66608846, y: -0.08620931, z: 0.47367406}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 451861331}
-  m_Father: {fileID: 2097555553}
+  m_Father: {fileID: 787026068}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -117.079, z: 0}
 --- !u!1 &2097555550
@@ -1403,6 +1500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
+  RuntimeCollider: 0
   mTrackableName: Menu_image_target_1x1
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Animal_Kingdom.xml
@@ -1428,8 +1526,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 787026068}
-  - {fileID: 2057708357}
-  - {fileID: 1362157566}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
