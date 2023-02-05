@@ -2115,8 +2115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c708f095de6a45d094f2063da2410d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalQuestions: 2
-  NextScene: Tiger and Hunter Scene
+  questionNumber: 0
+  NextScene: 
   questions:
   - questionText: Wild tigers live in Asia, and most populations inhabit tropical
       regions in countries such as Thailand, Indonesia and India. What kind of habitat

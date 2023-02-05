@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class AnswerButtons : MonoBehaviour
 {
@@ -35,6 +36,7 @@ public class AnswerButtons : MonoBehaviour
             answerAbackGreen.SetActive(true);
             answerAbackBlue.SetActive(false);
             StartCoroutine(NextQuestion());
+
         }
         else
         {
