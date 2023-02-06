@@ -12,6 +12,7 @@ public class DialogueController : MonoBehaviour
     public float DialogueSpeed;
     public Animator DialogueAnimator;
     private bool StartDialogue = true;
+    private bool nextText = true;
 
     void Update()
     {
@@ -22,7 +23,12 @@ public class DialogueController : MonoBehaviour
                 DialogueAnimator.SetTrigger("Enter");
                 StartDialogue = false;
             }
-            NextSentence();
+            if (nextText == true)
+            {
+                nextText = false;
+                NextSentence();
+            }
+            
         }
 
         
@@ -50,11 +56,13 @@ public class DialogueController : MonoBehaviour
             yield return new WaitForSeconds(DialogueSpeed);
         }
         Index++;
+        nextText = true;
     }
 
     private IEnumerator DestroyObject()
     {
         yield return new WaitForSeconds(1f);
-        Destroy(DialogueBox);
+        /*Destroy(DialogueBox);*/
+        DialogueBox.SetActive(false);
     }
 }
