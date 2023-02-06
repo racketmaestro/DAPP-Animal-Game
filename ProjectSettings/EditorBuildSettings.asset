@@ -8,9 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro Scene.unity
     guid: 8ee80a613bf29d74184b9a1d43dc702c
-  - enabled: 0
-    path: Assets/Scenes/Old Tiger Scene.unity
-    guid: 62fb8ff6314008e41adc9005d4ca0ad6
   - enabled: 1
     path: Assets/Scenes/Tiger Scene.unity
     guid: 6c9c2ceebf61cd64cb83df690001269b
