@@ -28,6 +28,8 @@ public class AnswerButtons : MonoBehaviour
     public GameObject answerC;
     public GameObject answerD;
 
+    public AudioSource correctFX;
+    public AudioSource wrongFX;
 
     public void AnswerA()
     {
@@ -35,6 +37,7 @@ public class AnswerButtons : MonoBehaviour
         {
             answerAbackGreen.SetActive(true);
             answerAbackBlue.SetActive(false);
+            correctFX.Play();
             StartCoroutine(NextQuestion());
 
         }
@@ -42,6 +45,7 @@ public class AnswerButtons : MonoBehaviour
         {
             answerAbackRed.SetActive(true);
             answerAbackBlue.SetActive(false);
+            wrongFX.Play();
         }
         
 
@@ -60,12 +64,14 @@ public class AnswerButtons : MonoBehaviour
         {
             answerBbackGreen.SetActive(true);
             answerBbackBlue.SetActive(false);
+            correctFX.Play();
             StartCoroutine(NextQuestion());
         }
         else
         {
             answerBbackRed.SetActive(true);
             answerBbackBlue.SetActive(false);
+            wrongFX.Play();
         }
 
         /*
@@ -82,12 +88,14 @@ public class AnswerButtons : MonoBehaviour
         {
             answerCbackGreen.SetActive(true);
             answerCbackBlue.SetActive(false);
+            correctFX.Play();
             StartCoroutine(NextQuestion());
         }
         else
         {
             answerCbackRed.SetActive(true);
             answerCbackBlue.SetActive(false);
+            wrongFX.Play();
         }
 
         /*
@@ -104,12 +112,14 @@ public class AnswerButtons : MonoBehaviour
         {
             answerDbackGreen.SetActive(true);
             answerDbackBlue.SetActive(false);
+            correctFX.Play();
             StartCoroutine(NextQuestion());
         }
         else
         {
             answerDbackRed.SetActive(true);
             answerDbackBlue.SetActive(false);
+            wrongFX.Play();
         }
 
         /*
