@@ -94,13 +94,6 @@ public class MovingHunterTarget : MonoBehaviour
         }
     }
 
-    /* private void SetNewTargetPosition()
-     {
-         Vector2 canvasSize = new Vector2(canvasRectTransform.rect.width, canvasRectTransform.rect.height) / 2f;
-         float x = Random.Range(-canvasSize.x + rectTransform.sizeDelta.x / 2, canvasSize.x - rectTransform.sizeDelta.x / 2);
-         float y = Random.Range(-canvasSize.y + rectTransform.sizeDelta.y / 2, canvasSize.y - rectTransform.sizeDelta.y / 2);
-         targetPosition = new Vector2(x, y);
-     }*/
     private void SetNewTargetPosition()
     {
         RectTransform canvasObjectRectTransform = CanvasObject.GetComponent<RectTransform>();
