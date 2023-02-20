@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: AnimalBlack
+    uniqueID: 3958823737
+    locked: 0
+  - name: Animal
+    uniqueID: 2621399349
+    locked: 0
