@@ -65,7 +65,9 @@ public class MovingHunterTarget : MonoBehaviour
     public float moveSpeed = 1f;
     public GameObject animationObject;
     public GameObject CanvasObject;
+    public GameObject ObjectToDestroy;
     private Animator animator;
+    private Image image;
 
     void Start()
     {
@@ -73,7 +75,28 @@ public class MovingHunterTarget : MonoBehaviour
         canvasRectTransform = GetComponentInParent<Canvas>().GetComponent<RectTransform>();
         SetNewTargetPosition();
         animator = animationObject.GetComponent<Animator>();
+        image = GetComponent<Image>();
     }
+
+    /*    void Update()
+        {
+            rectTransform.anchoredPosition = Vector2.Lerp(rectTransform.anchoredPosition, targetPosition, moveSpeed * Time.deltaTime);
+            if (Vector2.Distance(rectTransform.anchoredPosition, targetPosition) < 0.1f)
+            {
+                SetNewTargetPosition();
+            }
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                Vector2 tapPoint = Input.mousePosition;
+                if (RectTransformUtility.RectangleContainsScreenPoint(rectTransform, tapPoint))
+                {
+                    Destroy(gameObject);
+                    animationObject.GetComponent<Animator>().Play("Stumble Backwards");
+                }
+            }
+        }*/
+    private bool isDestroying = false;
 
     void Update()
     {
@@ -88,11 +111,25 @@ public class MovingHunterTarget : MonoBehaviour
             Vector2 tapPoint = Input.mousePosition;
             if (RectTransformUtility.RectangleContainsScreenPoint(rectTransform, tapPoint))
             {
-                Destroy(gameObject);
-                animationObject.GetComponent<Animator>().Play("Stumble Backwards");
+                image.color = new Color(0, 0, 0, 0);
+                if (!isDestroying)
+                {
+                    isDestroying = true;
+                    StartCoroutine(DestroyObjectAfterDelay());
+                    animationObject.GetComponent<Animator>().Play("Stumble Backwards");
+                }
             }
         }
     }
+
+    private IEnumerator DestroyObjectAfterDelay()
+    {
+        yield return new WaitForSeconds(6f);
+        Destroy(ObjectToDestroy);
+    }
+
+
+
 
     private void SetNewTargetPosition()
     {

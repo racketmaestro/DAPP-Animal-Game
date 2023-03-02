@@ -4130,13 +4130,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Menu_image_target_1x1
+  mTrackableName: SUN
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Animal_Kingdom.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/ARBook.xml
+  mAspectRatio: 0.643229
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 0.643229
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -4172,8 +4172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 2097555552}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Menu_image_target_1x1
-  mDatasetName: Vuforia/Animal_Kingdom.xml
+  mTargetName: SUN
+  mDatasetName: Vuforia/ARBook.xml
   mCastedBehaviour: {fileID: 2097555552}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
