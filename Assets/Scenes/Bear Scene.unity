@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -528,6 +528,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1058217624}
     m_Modifications:
+    - target: {fileID: 3734775969355451150, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7292658344771522932, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2017,7 +2021,7 @@ MonoBehaviour:
   - {fileID: 616900914}
   - {fileID: 173789441}
   - {fileID: 509964887}
-  nextScene: Tiger and Hunter Scene
+  nextScene: Puzzle game
 --- !u!4 &973402295
 Transform:
   m_ObjectHideFlags: 0
@@ -2640,20 +2644,18 @@ MonoBehaviour:
   totalQuestions: 2
   questionPanel: {fileID: 173789441}
   questions:
-  - questionText: Wild tigers live in Asia, and most populations inhabit tropical
-      regions in countries such as Thailand, Indonesia and India. What kind of habitat
-      do you think Bengal/Bali/etc tiger live in?
-    optionA: Sahara Desert
-    optionB: Tropical Jungle
-    optionC: Arctic Circle
-    optionD: Pacific Ocean
-    correctAnswer: B
-  - questionText: What is the name of a baby tiger?
-    optionA: Cub
-    optionB: Kitten
-    optionC: Puppy
-    optionD: Foal
-    correctAnswer: A
+  - questionText: How do bears stay cool in the hot summer months?
+    optionA: Fanning themselves
+    optionB: Drinking Coke
+    optionC: Showering in rivers
+    optionD: Climbing trees
+    correctAnswer: C
+  - questionText: What do bears like to eat in the forest?
+    optionA: Flowers
+    optionB: Grass
+    optionC: Diet Coke
+    optionD: Berries
+    correctAnswer: D
 --- !u!1 &1482290298
 GameObject:
   m_ObjectHideFlags: 0
@@ -3291,7 +3293,7 @@ MonoBehaviour:
   DialogueText: {fileID: 1055673426}
   DialogueBox: {fileID: 509964887}
   sentences:
-  - Well done wilderness explorer!
+  - You know your animals well!
   - Click once and flip the page to continue!
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 509964889}
@@ -4027,10 +4029,8 @@ MonoBehaviour:
   DialogueText: {fileID: 2122648261}
   DialogueBox: {fileID: 616900914}
   sentences:
-  - Look what we have here!
-  - a wild TIGER!
-  - roar
-  - Let's see what you know about these beasts!
+  - Onwards we go to the forest
+  - a wild bear spawns!
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 616900916}
 --- !u!4 &2122421467
