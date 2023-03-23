@@ -111,10 +111,12 @@ public class MovingHunterTarget : MonoBehaviour
             Vector2 tapPoint = Input.mousePosition;
             if (RectTransformUtility.RectangleContainsScreenPoint(rectTransform, tapPoint))
             {
+                // Set the moving target to invisible
                 image.color = new Color(0, 0, 0, 0);
                 if (!isDestroying)
                 {
                     isDestroying = true;
+                    // Destroy the panel so that the next dialogue panel can spawn
                     StartCoroutine(DestroyObjectAfterDelay());
                     animationObject.GetComponent<Animator>().Play("Stumble Backwards");
                 }
@@ -124,7 +126,7 @@ public class MovingHunterTarget : MonoBehaviour
 
     private IEnumerator DestroyObjectAfterDelay()
     {
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(4f);
         Destroy(ObjectToDestroy);
     }
 

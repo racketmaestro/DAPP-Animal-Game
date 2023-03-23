@@ -2641,7 +2641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c708f095de6a45d094f2063da2410d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalQuestions: 2
+  totalQuestions: 3
   questionPanel: {fileID: 173789441}
   questions:
   - questionText: How do bears stay cool in the hot summer months?
@@ -2656,6 +2656,12 @@ MonoBehaviour:
     optionC: Diet Coke
     optionD: Berries
     correctAnswer: D
+  - questionText: Which season of the year do bears hibernate?
+    optionA: Autumn
+    optionB: Spring
+    optionC: Winter
+    optionD: Summer
+    correctAnswer: C
 --- !u!1 &1482290298
 GameObject:
   m_ObjectHideFlags: 0
