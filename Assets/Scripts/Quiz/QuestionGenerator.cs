@@ -45,6 +45,7 @@ public class QuestionGenerator : MonoBehaviour
         {
             /*SceneManager.LoadScene(NextScene);*/
             questionPanel.SetActive(false);
+
         }
         QuestionDisplay.updateQuestion = false;
     }
