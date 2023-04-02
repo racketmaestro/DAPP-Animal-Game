@@ -17,12 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bear Scene.unity
     guid: 919d497cb41f2854e8b798b5f6c9d572
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Pairs game.unity
     guid: 9fbdd7cdc494d4c15a953a2a46242e65
   - enabled: 0
-    path: Assets/Scenes/Tiger Scene 1.unity
-    guid: 5170422bdcf310245a9b6e4c0e282e83
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Puzzle game 1.unity
+    guid: d41d9bb047109c2498c26add4803d29a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9f08a76bdbfb66e49a48b5271cba7cec, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 61bfd53f983b5c742b6e20701c483bfe, type: 2}
