@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Bear Scene.unity
     guid: 919d497cb41f2854e8b798b5f6c9d572
   - enabled: 1
-    path: Assets/Scenes/Puzzle game.unity
+    path: Assets/Scenes/Pairs game.unity
     guid: 9fbdd7cdc494d4c15a953a2a46242e65
   - enabled: 0
     path: Assets/Scenes/Tiger Scene 1.unity
