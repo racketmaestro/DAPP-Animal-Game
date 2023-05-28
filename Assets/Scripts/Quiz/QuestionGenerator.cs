@@ -11,9 +11,8 @@ public class QuestionGenerator : MonoBehaviour
     public static string actualAnswer;
     public static bool displayingQuestion = false;
     private int questionNumber = 0;
- /*   public string NextScene;*/
     public Question[] questions;
-    
+
 
     [System.Serializable]
     public class Question
@@ -25,6 +24,7 @@ public class QuestionGenerator : MonoBehaviour
         public string optionD;
         public string correctAnswer;
     }
+
 
     void Update()
     {
@@ -39,15 +39,25 @@ public class QuestionGenerator : MonoBehaviour
             QuestionDisplay.newC = questions[questionNumber - 1].optionC;
             QuestionDisplay.newD = questions[questionNumber - 1].optionD;
             actualAnswer = questions[questionNumber - 1].correctAnswer;
-            
+
         }
         else if (questionNumber > totalQuestions)
         {
-            /*SceneManager.LoadScene(NextScene);*/
+
             questionPanel.SetActive(false);
 
         }
         QuestionDisplay.updateQuestion = false;
     }
 
+    void OnDestroy()
+    {
+        displayingQuestion = false;
+        questionNumber = 0;
+    }
+
+
 }
+
+
+
