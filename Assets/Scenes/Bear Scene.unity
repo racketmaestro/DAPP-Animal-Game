@@ -2021,7 +2021,7 @@ MonoBehaviour:
   - {fileID: 616900914}
   - {fileID: 173789441}
   - {fileID: 509964887}
-  nextScene: Puzzle game
+  nextScene: Puzzle game 1
 --- !u!4 &973402295
 Transform:
   m_ObjectHideFlags: 0

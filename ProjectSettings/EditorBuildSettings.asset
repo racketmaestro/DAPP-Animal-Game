@@ -17,15 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bear Scene.unity
     guid: 919d497cb41f2854e8b798b5f6c9d572
-  - enabled: 0
-    path: Assets/Scenes/Pairs game.unity
-    guid: 9fbdd7cdc494d4c15a953a2a46242e65
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Puzzle game 1.unity
     guid: d41d9bb047109c2498c26add4803d29a
+  - enabled: 1
+    path: Assets/Scenes/Elephant Scene.unity
+    guid: 20680412721f71f428cbb6f968b233dc
+  - enabled: 1
+    path: Assets/Scenes/JigSaw Game.unity
+    guid: c2bcb8a40dd405b4fa5473da2293bf94
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9f08a76bdbfb66e49a48b5271cba7cec, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 61bfd53f983b5c742b6e20701c483bfe, type: 2}
