@@ -1439,7 +1439,9 @@ MonoBehaviour:
   sentences:
   - Phew... That was close!
   - Thank you for protecting the tiger!
-  - Let's move! Click and flip the page to continue
+  - I wonder what our next animal is...
+  - Let's continue the journey!
+  - Click and flip the page to continue
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 1447787453}
 --- !u!1 &1717537995
@@ -1879,6 +1881,7 @@ MonoBehaviour:
   - Wait a second...
   - Who is that?
   - Oh no! It's a hunter! We have to help the tiger!
+  - Tap the screen when you see a tiger
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 288412364}
 --- !u!1 &2057708356

@@ -777,8 +777,10 @@ MonoBehaviour:
   sentences:
   - Hello Fellow Wilderness Explorer!
   - Welcome to Animal Kingdom!
-  - Follow me,
-  - Let us visit our beloved friends
+  - I am Max
+  - I will be your guide on this journey
+  - Let us visit our wonderful friends
+  - Hope you have fun!
   - Flip the page to continue!
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 24161984}

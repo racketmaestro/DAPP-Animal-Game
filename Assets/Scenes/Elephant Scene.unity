@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3315,7 +3315,8 @@ MonoBehaviour:
   DialogueText: {fileID: 1055673426}
   DialogueBox: {fileID: 509964887}
   sentences:
-  - You know your animals well!
+  - Bravo!
+  - Keep up the good work!
   - Click once and flip the page to continue!
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 509964889}
@@ -4051,8 +4052,13 @@ MonoBehaviour:
   DialogueText: {fileID: 2122648261}
   DialogueBox: {fileID: 616900914}
   sentences:
-  - Onwards we go to the forest
-  - a wild bear spawns!
+  - It is very hot here!
+  - I wonder what animal lives here?
+  - Scan the image to find out...
+  - It is the largest land animal....
+  - ...the elephant!
+  - I am impressed by how much you know,
+  - I wonder how much you know about these!
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 616900916}
 --- !u!4 &2122421467
