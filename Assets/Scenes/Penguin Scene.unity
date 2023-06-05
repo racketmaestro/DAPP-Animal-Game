@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3206,8 +3206,10 @@ MonoBehaviour:
   DialogueText: {fileID: 1055673426}
   DialogueBox: {fileID: 509964887}
   sentences:
-  - You know your animals well!
-  - Click once and flip the page to continue!
+  - You certainly do know your animals well!
+  - Fantastic work!
+  - We are almost at the end of our journey
+  - Click once for your final challenge...
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 509964889}
 --- !u!1 &1782181345
@@ -4021,8 +4023,15 @@ MonoBehaviour:
   DialogueText: {fileID: 2122648261}
   DialogueBox: {fileID: 616900914}
   sentences:
-  - Onwards we go to the forest
-  - a wild bear spawns!
+  - 'Let''s recap which habitats we have visited:'
+  - the jungle, forest and savannah
+  - I wonder what the last habitat is?
+  - Scan the image to find out...
+  - We have arrived at an icy kingdom!
+  - 'Look over there! '
+  - I can see a penguin
+  - You have done a good job on the other animals,
+  - let's find out how much you know about these!
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 616900916}
 --- !u!4 &2122421467
