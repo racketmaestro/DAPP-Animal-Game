@@ -163,7 +163,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 18.734959, y: -263}
+  m_AnchoredPosition: {x: 18.734959, y: -309}
   m_SizeDelta: {x: 148.0792, y: 30}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &146430870
@@ -637,7 +637,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -343, y: -263}
+  m_AnchoredPosition: {x: -343, y: -309}
   m_SizeDelta: {x: 150.8141, y: 30}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &432358786
@@ -900,8 +900,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000030518, y: -225.01999}
-  m_SizeDelta: {x: 800, y: 450.04}
+  m_AnchoredPosition: {x: -0.000030518, y: -250.11}
+  m_SizeDelta: {x: 800, y: 500.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &509964889
 Animator:
@@ -1244,8 +1244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000034332, y: -225.02}
-  m_SizeDelta: {x: 800, y: 450.04}
+  m_AnchoredPosition: {x: -0.000021029, y: -250.11}
+  m_SizeDelta: {x: 800, y: 500.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &616900916
 Animator:
@@ -1345,7 +1345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 197.90091, y: -263}
+  m_AnchoredPosition: {x: 197.90091, y: -309}
   m_SizeDelta: {x: 149.9133, y: 30}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &620184311
@@ -3430,7 +3430,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -163.32982, y: -263}
+  m_AnchoredPosition: {x: -163.32982, y: -309}
   m_SizeDelta: {x: 149.144, y: 30}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1837085212
