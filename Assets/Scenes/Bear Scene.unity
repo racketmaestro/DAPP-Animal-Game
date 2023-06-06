@@ -2960,7 +2960,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 20x20_Max
+  mTrackableName: Bear
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Animal_Kingdom.xml
   mAspectRatio: 1
@@ -3002,7 +3002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1511387133}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 20x20_Max
+  mTargetName: Bear
   mDatasetName: Vuforia/Animal_Kingdom.xml
   mCastedBehaviour: {fileID: 1511387133}
   mMeshFilter: {fileID: 0}

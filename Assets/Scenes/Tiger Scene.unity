@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4498,7 +4498,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 20x20_Max
+  mTrackableName: Tiger
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Animal_Kingdom.xml
   mAspectRatio: 1
@@ -4540,7 +4540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 2097555552}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 20x20_Max
+  mTargetName: Tiger
   mDatasetName: Vuforia/Animal_Kingdom.xml
   mCastedBehaviour: {fileID: 2097555552}
   mMeshFilter: {fileID: 0}

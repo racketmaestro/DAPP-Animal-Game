@@ -702,7 +702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 24161980}
-  nextScene: Tiger Scene
+  nextScene: 
 --- !u!4 &499188853
 Transform:
   m_ObjectHideFlags: 0
