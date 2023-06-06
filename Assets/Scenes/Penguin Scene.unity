@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2515,18 +2515,24 @@ MonoBehaviour:
   totalQuestions: 2
   questionPanel: {fileID: 173789441}
   questions:
-  - questionText: How do bears stay cool in the hot summer months?
-    optionA: Fanning themselves
-    optionB: Drinking Coke
-    optionC: Showering in rivers
-    optionD: Climbing trees
-    correctAnswer: C
-  - questionText: What do bears like to eat in the forest?
-    optionA: Flowers
-    optionB: Grass
-    optionC: Diet Coke
-    optionD: Berries
+  - questionText: What colour are most penguins' feathers
+    optionA: Purple and orange
+    optionB: Red and blue
+    optionC: Green and yellow
+    optionD: Black and white
     correctAnswer: D
+  - questionText: What do penguins use to slide on the ice?
+    optionA: Their bellies
+    optionB: Their flippers
+    optionC: Their beaks
+    optionD: Their tails
+    correctAnswer: A
+  - questionText: How do penguins protect themselves from predators?
+    optionA: 'By hiding in trees '
+    optionB: 'By swimming very fast '
+    optionC: 'By standing still and pretending to be a rock '
+    optionD: By singing loudly
+    correctAnswer: A
 --- !u!1 &1482290298
 GameObject:
   m_ObjectHideFlags: 0

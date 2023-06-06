@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2567,24 +2567,18 @@ MonoBehaviour:
   totalQuestions: 3
   questionPanel: {fileID: 173789441}
   questions:
-  - questionText: How do bears stay cool in the hot summer months?
-    optionA: Fanning themselves
-    optionB: Drinking Coke
-    optionC: Showering in rivers
-    optionD: Climbing trees
-    correctAnswer: C
-  - questionText: What do bears like to eat in the forest?
-    optionA: Flowers
+  - questionText: What body part of the elephant is used to pick up objects
+    optionA: Trunk
+    optionB: Tail
+    optionC: Ears
+    optionD: Feet
+    correctAnswer: A
+  - questionText: What is the main food that elephants eat
+    optionA: Fish
     optionB: Grass
-    optionC: Diet Coke
-    optionD: Berries
-    correctAnswer: D
-  - questionText: Which season of the year do bears hibernate?
-    optionA: Autumn
-    optionB: Spring
-    optionC: Winter
-    optionD: Summer
-    correctAnswer: C
+    optionC: Apples
+    optionD: Chocolate
+    correctAnswer: B
 --- !u!1 &1482290298
 GameObject:
   m_ObjectHideFlags: 0
