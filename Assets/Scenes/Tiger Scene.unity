@@ -4579,10 +4579,12 @@ MonoBehaviour:
   DialogueText: {fileID: 2122648261}
   DialogueBox: {fileID: 616900914}
   sentences:
+  - What noise is that?
+  - Scan the image to find out...
   - Look what we have here!
   - a wild TIGER!
   - roar
-  - Let's see what you know about these beasts!
+  - Let's see what you know about these creatures!
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 616900916}
 --- !u!4 &2122421467

@@ -8,7 +8,8 @@ public class GameControl : MonoBehaviour
     private Transform[] pictures;
 
     public static bool youWin;
-
+    private float delay = 3f;
+    public GameObject jigsawParent;
     void Start()
     {
         youWin = false;
@@ -24,7 +25,14 @@ public class GameControl : MonoBehaviour
         {
             youWin = true;
             Debug.Log("You win");
+            Invoke("DeactivatePuzzlePieces", delay);
+
         }
 
+    }
+    private void DeactivatePuzzlePieces()
+    {
+        // Set all puzzle pieces inactive
+        jigsawParent.SetActive(false);
     }
 }

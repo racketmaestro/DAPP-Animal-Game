@@ -56,6 +56,9 @@ public class DragandDrop : MonoBehaviour, IDragHandler, IEndDragHandler
     private Canvas canvas;
     private Vector2 originalPosition;
 
+    public AudioSource correctFX;
+    public AudioSource wrongFX;
+
     private void Start()
     {
         sourceRectTransform = GetComponent<RectTransform>();
@@ -76,11 +79,13 @@ public class DragandDrop : MonoBehaviour, IDragHandler, IEndDragHandler
         if (Vector2.Distance(sourceRectTransform.anchoredPosition, targetRectTransform.anchoredPosition) < 50f)
         {
             sourceRectTransform.anchoredPosition = targetRectTransform.anchoredPosition;
+            correctFX.Play();
         }
         else
         {
             // If the source UI image is not close enough to the target, reset its position to the original
             sourceRectTransform.anchoredPosition = originalPosition;
+            wrongFX.Play();
         }
     }
 
