@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartToIntro : MonoBehaviour
+public class LoadIntroScene : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void PlayButton()
+    public void NextButton()
     {
-        SceneManager.LoadScene("Introduction");
+        SceneManager.LoadScene("Intro Scene");
     }
 
 }
