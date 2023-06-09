@@ -72,3 +72,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 *.tgz
+Assets/Ink/Demos/Basic Demo.unitypackage.meta
