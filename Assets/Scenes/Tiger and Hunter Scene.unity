@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -241,8 +241,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -55.25743}
-  m_SizeDelta: {x: 0.00012207031, y: 110.5148}
+  m_AnchoredPosition: {x: 0, y: -90.66127}
+  m_SizeDelta: {x: 0.0001, y: 181.3225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &173789443
 MonoBehaviour:
@@ -257,15 +257,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.62352943, g: 1, b: 1, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c9d99d6f99d35c240bd5ba44dd45f742, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1044,8 +1044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 88.80969, y: 0}
-  m_SizeDelta: {x: -177.6194, y: 0}
+  m_AnchoredPosition: {x: -21.7027, y: 0}
+  m_SizeDelta: {x: -398.6442, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1059674929
 MonoBehaviour:
@@ -1441,7 +1441,7 @@ MonoBehaviour:
   - Thank you for protecting the tiger!
   - I wonder what our next animal is...
   - Let's continue the journey!
-  - Click and flip the page to continue
+  - Click to continue
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 1447787453}
 --- !u!1 &1717537995
@@ -1576,8 +1576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 73.69306, y: 179.5088}
-  m_SizeDelta: {x: -238.0853, y: -359.0177}
+  m_AnchoredPosition: {x: -23.588985, y: 179.5088}
+  m_SizeDelta: {x: -432.6494, y: -359.0177}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1839897603
 GameObject:
@@ -1614,8 +1614,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.000061035156, y: 9.696289}
-  m_SizeDelta: {x: -12.012207, y: 72.7715}
+  m_AnchoredPosition: {x: -8, y: 17}
+  m_SizeDelta: {x: -72.2261, y: 72.7715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839897605
 MonoBehaviour:
@@ -1637,9 +1637,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Did you know that tigers are endangered because they are hunted for their
-    fur? There are only about 3000 tigers left in the wild. We need to help protect
-    them! Stop this hunter by tapping on the target!
+  m_text: Did you know tigers are being hunted for their fur? Stop this hunter by
+    tapping on the tiger!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
   m_sharedMaterial: {fileID: 1458263192709328847, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
@@ -1666,7 +1665,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.75
+  m_fontSize: 29.65
   m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1674,7 +1673,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1880,7 +1879,8 @@ MonoBehaviour:
   sentences:
   - Wait a second...
   - Who is that?
-  - Oh no! It's a hunter! We have to help the tiger!
+  - 'Oh no! It''s a hunter! '
+  - We have to help the tiger!
   - Tap the screen when you see a tiger
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 288412364}
