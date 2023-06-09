@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -767,8 +767,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 509964888}
   - {fileID: 616900915}
+  - {fileID: 509964888}
   - {fileID: 173789442}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1220,7 +1220,7 @@ RectTransform:
   - {fileID: 1055673428}
   - {fileID: 1775778871}
   m_Father: {fileID: 265266600}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1559,7 +1559,7 @@ RectTransform:
   - {fileID: 2122648260}
   - {fileID: 2122421467}
   m_Father: {fileID: 265266600}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -2989,7 +2989,7 @@ MonoBehaviour:
   totalQuestions: 2
   questionPanel: {fileID: 173789441}
   questions:
-  - questionText: What kind of habitat do you think tiger live in?
+  - questionText: Where do you think tiger live?
     optionA: Sahara Desert
     optionB: Tropical Jungle
     optionC: Arctic Circle
@@ -3693,7 +3693,7 @@ MonoBehaviour:
   DialogueBox: {fileID: 509964887}
   sentences:
   - Well done wilderness explorer!
-  - Click once and flip the page to continue!
+  - Tap once to continue
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 509964889}
 --- !u!1 &1782181345
@@ -4577,10 +4577,10 @@ MonoBehaviour:
   DialogueText: {fileID: 2122648261}
   DialogueBox: {fileID: 616900914}
   sentences:
-  - What noise is that?
-  - Scan the image to find out...
-  - Look what we have here!
-  - a wild TIGER!
+  - Look around the room...
+  - Can you see an orange stripy animal?
+  - Get the picture and point the camera at it
+  - It's a tiger!
   - roar
   - Let's see what you know about these creatures!
   DialogueSpeed: 0.05

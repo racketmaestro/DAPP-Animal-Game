@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2124,8 +2124,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 64.83657, y: 182.56633}
-  m_SizeDelta: {x: -245.6967, y: -365.1325}
+  m_AnchoredPosition: {x: -9.204285, y: 182.56633}
+  m_SizeDelta: {x: -393.7785, y: -365.1325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1085813361
 GameObject:
@@ -2971,27 +2971,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.39699942
+      value: 0.7639072
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.39699936
+      value: 0.7639071
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.39699942
+      value: 0.7639072
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.797889
+      value: 14.49
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.28999996
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.1528
+      value: 8.36
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3021,6 +3021,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: 422efa12b28a4a44db80065d0a16e862, type: 2}
+    - target: {fileID: 11100000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
+      propertyPath: m_Animations.Array.data[3]
+      value: 
+      objectReference: {fileID: 7330622477707321032, guid: 087a2ac1c75bbc34aa1d66d7766c1d5b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28f113bc1593119448bfebc93373c1ad, type: 3}
 --- !u!4 &1679537733 stripped
@@ -4029,13 +4041,12 @@ MonoBehaviour:
   DialogueText: {fileID: 2122648261}
   DialogueBox: {fileID: 616900914}
   sentences:
-  - 'Let''s recap which habitats we have visited:'
-  - the jungle, forest and savannah
-  - I wonder what the last habitat is?
-  - Scan the image to find out...
-  - We have arrived at an icy kingdom!
-  - 'Look over there! '
-  - I can see a penguin
+  - Let's recap which animals we have seen
+  - a tiger, a bear and an elephant
+  - I wonder what the last one is?
+  - Can you see a black and white animal?
+  - Get the last picture and point the camera at it
+  - It's a penguin!
   - You have done a good job on the other animals,
   - let's find out how much you know about these!
   DialogueSpeed: 0.05
@@ -4090,8 +4101,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 63.130432, y: 175.74138}
-  m_SizeDelta: {x: -228.6344, y: -351.4827}
+  m_AnchoredPosition: {x: -13.7858, y: 175.74138}
+  m_SizeDelta: {x: -382.4669, y: -351.4827}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2122648261
 MonoBehaviour:

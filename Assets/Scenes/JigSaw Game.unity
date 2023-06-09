@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -255,8 +255,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.999939, y: 23}
-  m_SizeDelta: {x: -300, y: -100}
+  m_AnchoredPosition: {x: -72.836395, y: 23}
+  m_SizeDelta: {x: -423.673, y: -100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &42971315
 GameObject:
@@ -784,8 +784,9 @@ MonoBehaviour:
   DialogueText: {fileID: 2052035476}
   DialogueBox: {fileID: 169705597}
   sentences:
-  - Do you know a large, grey trunky animal?
-  - Solve the puzzle to find out!
+  - The last elephant looked a bit angry
+  - Solve the puzzle to find a happy elephant
+  - Tap on each piece to turn it
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 169705601}
 --- !u!1 &921585538
@@ -1523,7 +1524,9 @@ MonoBehaviour:
   DialogueText: {fileID: 33657878}
   DialogueBox: {fileID: 1122354407}
   sentences:
-  - good job! click and turn the page to continue
+  - Excellent job explorer!
+  - What will our next animal be?
+  - Click to find out
   DialogueSpeed: 0.05
   DialogueAnimator: {fileID: 1122354408}
 --- !u!1 &1758469410
@@ -1895,8 +1898,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.9999695, y: 23}
-  m_SizeDelta: {x: -300, y: -100}
+  m_AnchoredPosition: {x: -70.36794, y: 34.183197}
+  m_SizeDelta: {x: -418.736, y: -122.3664}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2052035476
 MonoBehaviour:
