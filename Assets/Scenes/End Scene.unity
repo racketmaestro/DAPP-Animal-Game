@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -434,8 +434,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -308.77, y: -55.62059}
-  m_SizeDelta: {x: 136.9022, y: 230.2588}
+  m_AnchoredPosition: {x: -304.61218, y: -52}
+  m_SizeDelta: {x: 125.2605, y: 230.2588}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &85708821
 MonoBehaviour:
@@ -457,7 +457,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9c9bb52f4df02204ba33e8cbe9d86b46, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df1679eff42d3864995e76e07f33c3fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -806,6 +806,7 @@ GameObject:
   - component: {fileID: 541327287}
   - component: {fileID: 541327286}
   - component: {fileID: 541327285}
+  - component: {fileID: 541327289}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -898,6 +899,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &541327289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541327284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ce36dbde91d8ff43b6367728fedc723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &602501880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1114,7 @@ GameObject:
   - component: {fileID: 1751186274}
   - component: {fileID: 1751186273}
   m_Layer: 5
-  m_Name: Skip
+  m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1171,7 +1184,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1751186274}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 541327289}
+        m_TargetAssemblyTypeName: FinalToMain, Assembly-CSharp
+        m_MethodName: ExitButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1751186274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1192,7 +1217,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5c3fc28af34430842b21515615476320, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83bcd53f445fd32418b5af7b43781606, type: 2}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
