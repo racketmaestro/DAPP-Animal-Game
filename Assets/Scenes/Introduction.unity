@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -182,9 +182,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Device Setup: \n(1) Paste markers around the room in any order\n(2) The
-    device with a screen and a camera on both sides should be mounted with camera
-    facing directly at the markers and screen facing to the users. \n(3) Following
-    the dialogue guide to progress through the game!\n\n\n\n"
+    device should be mounted or held with camera facing at a 45 degree incline towards
+    the markers.\n(3) Follow the dialogue guide to progress through the game!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
   m_sharedMaterial: {fileID: 1458263192709328847, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
@@ -507,7 +506,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1063938605}
   m_Direction: 1
   m_Value: 1
-  m_Size: 0.26250267
+  m_Size: 0.44124335
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -550,145 +549,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541136839}
   m_CullTransparentMesh: 1
---- !u!1 &558166154
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 558166155}
-  - component: {fileID: 558166157}
-  - component: {fileID: 558166156}
-  m_Layer: 5
-  m_Name: Text (TMP) (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &558166155
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558166154}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 997431905}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 443.57, y: 43.7466}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &558166156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558166154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '
-
-
-
-'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
-  m_sharedMaterial: {fileID: 1458263192709328847, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281874488
-  m_fontColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -7.629471, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &558166157
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558166154}
-  m_CullTransparentMesh: 1
 --- !u!1 &751920375
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,8 +588,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15, y: -134.35373}
-  m_SizeDelta: {x: -262.4943, y: 224.0575}
+  m_AnchoredPosition: {x: 14.006995, y: -134.35373}
+  m_SizeDelta: {x: -264.4803, y: 262.76}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &751920377
 MonoBehaviour:
@@ -988,9 +848,9 @@ MonoBehaviour:
 
     Safety and Warnings:
 
-    (1)  Avoiding areas with extreme lighting
-    conditions, such as excessively bright or dimly lit environments, is advisable.
-    The prolonged exposure to screens might be harmful to the users with visual impairments.'
+    (1)  Avoid areas with extreme lighting
+    conditions, such as excessively bright or dimly lit environments. The prolonged
+    exposure to screens might be harmful to the users with visual impairments.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
   m_sharedMaterial: {fileID: 1458263192709328847, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
@@ -1223,20 +1083,19 @@ RectTransform:
   m_GameObject: {fileID: 997431904}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.0096678, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 28830625}
   - {fileID: 876726266}
   - {fileID: 2059447458}
-  - {fileID: 558166155}
   m_Father: {fileID: 751920376}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -18.505615, y: 0.000015258789}
-  m_SizeDelta: {x: -283.63458, y: 0}
+  m_AnchoredPosition: {x: -14.0357, y: 0.000015258789}
+  m_SizeDelta: {x: -274.6948, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &997431906
 MonoBehaviour:
@@ -1251,7 +1110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
-  m_VerticalFit: 2
+  m_VerticalFit: 1
 --- !u!114 &997431907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1698,10 +1557,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "(2) Players need to be aware of their physical surroundings to avoid accidents
-    or injuries while moving around to explore the real world. \n(3) All the physical
-    movement requirements of the game must be easily executable for CP children.
-    \n\n\n\n"
+  m_text: "(2) Be aware of surroundings to avoid injury.\n(3) All the physical movement
+    requirements of the game are executable by CP children. \n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
   m_sharedMaterial: {fileID: 1458263192709328847, guid: 24349a1c20e388246bac588a1f584be5, type: 2}
